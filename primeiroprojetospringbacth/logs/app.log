@@ -1,0 +1,51 @@
+2022-07-14 18:06:41,875 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] Starting PrimeiroprojetospringbacthApplication using Java 1.8.0_312 on slave-node with PID 214120 (/home/gabriel/workspace/udemy/curso-spring-batch/primeiroprojetospringbacth/target/classes started by gabriel in /home/gabriel/workspace/udemy/curso-spring-batch/primeiroprojetospringbacth)
+2022-07-14 18:06:41,878 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-14 18:06:42,375 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-07-14 18:06:42,480 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-07-14 18:06:42,572 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-07-14 18:06:42,634 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-07-14 18:06:42,685 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] Started PrimeiroprojetospringbacthApplication in 1.159 seconds (JVM running for 1.763)
+2022-07-14 18:06:42,758 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=18, nome=Gabriel}]
+2022-07-14 18:06:42,785 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2022-07-14 18:06:42,796 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 11ms
+2022-07-14 18:06:42,802 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=18, nome=Gabriel}] and the following status: [COMPLETED] in 32ms
+2022-07-14 18:06:42,813 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=9, nome=Gabriel}]
+2022-07-14 18:06:42,821 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2022-07-14 18:06:42,842 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 21ms
+2022-07-14 18:06:42,877 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=9, nome=Gabriel}] and the following status: [COMPLETED] in 56ms
+2022-07-14 18:06:42,880 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-14 18:06:42,883 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-14 18:30:53,380 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] Starting PrimeiroprojetospringbacthApplication using Java 1.8.0_312 on slave-node with PID 217988 (/home/gabriel/workspace/udemy/curso-spring-batch/primeiroprojetospringbacth/target/classes started by gabriel in /home/gabriel/workspace/udemy/curso-spring-batch/primeiroprojetospringbacth)
+2022-07-14 18:30:53,383 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-14 18:30:53,782 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-07-14 18:30:53,860 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-07-14 18:30:53,946 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-07-14 18:30:53,995 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-07-14 18:30:54,051 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] Started PrimeiroprojetospringbacthApplication in 0.918 seconds (JVM running for 1.388)
+2022-07-14 18:30:54,123 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=19, nome=Gabriel}]
+2022-07-14 18:30:54,141 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2022-07-14 18:30:54,151 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 10ms
+2022-07-14 18:30:54,156 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=19, nome=Gabriel}] and the following status: [COMPLETED] in 23ms
+2022-07-14 18:30:54,167 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=10, nome=Gabriel}]
+2022-07-14 18:30:54,174 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2022-07-14 18:30:54,183 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 9ms
+2022-07-14 18:30:54,187 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=10, nome=Gabriel}] and the following status: [COMPLETED] in 18ms
+2022-07-14 18:30:54,190 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-14 18:30:54,193 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-14 18:46:05,922 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] Starting PrimeiroprojetospringbacthApplication using Java 1.8.0_312 on slave-node with PID 221556 (/home/gabriel/workspace/udemy/curso-spring-batch/primeiroprojetospringbacth/target/classes started by gabriel in /home/gabriel/workspace/udemy/curso-spring-batch/primeiroprojetospringbacth)
+2022-07-14 18:46:05,924 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-14 18:46:06,300 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-07-14 18:46:06,382 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-07-14 18:46:06,458 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-07-14 18:46:06,503 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-07-14 18:46:06,553 INFO c.u.p.PrimeiroprojetospringbacthApplication [main] Started PrimeiroprojetospringbacthApplication in 0.883 seconds (JVM running for 1.342)
+2022-07-14 18:46:06,614 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=20, nome=Gabriel}]
+2022-07-14 18:46:06,631 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2022-07-14 18:46:06,642 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 11ms
+2022-07-14 18:46:06,647 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=20, nome=Gabriel}] and the following status: [COMPLETED] in 22ms
+2022-07-14 18:46:06,657 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=11, nome=Gabriel}]
+2022-07-14 18:46:06,664 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2022-07-14 18:46:06,674 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 9ms
+2022-07-14 18:46:06,678 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=11, nome=Gabriel}] and the following status: [COMPLETED] in 19ms
+2022-07-14 18:46:06,681 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-14 18:46:06,684 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
