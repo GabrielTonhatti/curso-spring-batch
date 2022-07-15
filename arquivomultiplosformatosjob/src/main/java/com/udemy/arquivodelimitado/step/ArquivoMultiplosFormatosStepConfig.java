@@ -1,5 +1,6 @@
 package com.udemy.arquivodelimitado.step;
 
+import com.udemy.arquivodelimitado.reader.ArquivoClienteTransacaoReader;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.item.ItemWriter;
@@ -23,7 +24,7 @@ public class ArquivoMultiplosFormatosStepConfig {
         return stepBuilderFactory
                 .get("arquivoMultiplosFormatosStep")
                 .chunk(1)
-                .reader(leituraArquivoMultiplosFormatosReader)
+                .reader(new ArquivoClienteTransacaoReader(leituraArquivoMultiplosFormatosReader))
                 .writer(leituraArquivoMultiplosFormatosItemWriter)
                 .build();
     }
